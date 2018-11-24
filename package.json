@@ -1,0 +1,11 @@
+{
+  "name": "portal-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jason-afterpay/portal-clone.git",
+  "author": "jason-afterpay <jason@afterpay.com>",
+  "license": "MIT",
+  "dependencies": {
+    "webpack": "^4.26.0"
+  }
+}
