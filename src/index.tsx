@@ -1,6 +1,7 @@
+import "./index.scss";
 import React from "react";
 import ReactDOM from "react-dom";
-// import App from "./components/App/App";
+import App from "App/App";
 // import Root from "./Root";
 // import { showToast } from "./utils/toast";
 
@@ -14,4 +15,4 @@ import ReactDOM from "react-dom";
 //   showToast("Something went wrong. We are investigating");
 // };
 
-ReactDOM.render(<div>hello</div>, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
