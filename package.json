@@ -6,6 +6,23 @@
   "author": "jason-afterpay <jason@afterpay.com>",
   "license": "MIT",
   "dependencies": {
-    "webpack": "^4.26.0"
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
+    "clean-webpack-plugin": "^1.0.0",
+    "css-loader": "^1.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "identity-obj-proxy": "^3.0.0",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "ts-loader": "^5.3.0",
+    "typescript": "^3.1.6",
+    "webpack": "^4.26.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "scripts": {
+    "js-start": "webpack-dev-server --open --mode=development"
   }
 }
