@@ -2,6 +2,12 @@
 
 # Dependency directories
 /node_modules
+/.venv
+/.vscode
+/.pnp
+.pnp.js
+/__pycache__
+
 
 # production
 /dist/index.html

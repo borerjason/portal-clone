@@ -54,7 +54,13 @@ var config = {
       }
     ]
   },
-  devServer: {}
+  devServer: {
+    proxy: {
+      "/": {
+        target: "http://localhost:5000"
+      }
+    }
+  }
 };
 
 module.exports = (env, argv) => {

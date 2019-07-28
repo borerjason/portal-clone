@@ -10,6 +10,7 @@
     "@types/react-dom": "^16.0.10",
     "clean-webpack-plugin": "^1.0.0",
     "css-loader": "^1.0.1",
+    "flask": "^0.2.10",
     "html-webpack-plugin": "^3.2.0",
     "identity-obj-proxy": "^3.0.0",
     "node-sass": "^4.10.0",
@@ -25,6 +26,8 @@
   },
   "scripts": {
     "js-start": "webpack-dev-server --open --mode=development",
-    "js-build": "webpack --mode=production"
+    "js-build": "webpack --mode=production",
+    "py-build": "mkdir -p .venv && pipenv sync && pipenv sync -d",
+    "py-start": "FLASK_APP=app.py FLASK_DEBUG=1 pipenv run flask run"
   }
 }
